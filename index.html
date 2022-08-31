@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculadora | Higor</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="corpo">
+      <div class="container">
+        <input
+          type="text"
+          name="result"
+          id="resultado"
+          placeholder="0"
+          disabled
+        />
+        <div class="botoes">
+          <button onclick="calcular('acao','c')">C</button>
+          <button onclick="calcular('acao','/')">/</button>
+          <button onclick="calcular('acao','*')">X</button>
+          <button onclick="calcular('acao','-')">-</button>
+        </div>
+        <div class="botoes">
+          <button onclick="calcular('valor','7')">7</button>
+          <button onclick="calcular('valor','8')">8</button>
+          <button onclick="calcular('valor','9')">9</button>
+          <button onclick="calcular('acao','+')">+</button>
+        </div>
+        <div class="botoes">
+          <button onclick="calcular('valor','4')">4</button>
+          <button onclick="calcular('valor','5')">5</button>
+          <button onclick="calcular('valor','6')">6</button>
+          <button onclick="calcular('acao','=')" class="btn_maior">=</button>
+        </div>
+        <div class="botoes g2">
+          <button onclick="calcular('valor','1')">1</button>
+          <button onclick="calcular('valor','2')">2</button>
+          <button onclick="calcular('valor','3')">3</button>
+        </div>
+        <div class="botoes">
+          <button onclick="calcular('valor','0')" class="btngrande">0</button>
+          <button onclick="calcular('acao','.')">.</button>
+        </div>
+      </div>
+    </div>
+     <script src="js/script.js"></script>
+    <script>
+    </script>
+  </body>
+</html>
